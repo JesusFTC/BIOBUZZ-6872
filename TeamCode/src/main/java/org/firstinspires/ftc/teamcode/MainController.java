@@ -16,8 +16,6 @@ import org.firstinspires.ftc.teamcode.Shooter.Servo.ServoCommand;
 import org.firstinspires.ftc.teamcode.Shooter.Servo.ServoSubsystem;
 import org.firstinspires.ftc.teamcode.Shooter.ShooterCommand;
 import org.firstinspires.ftc.teamcode.Shooter.ShooterSubsystem;
-//import org.firstinspires.ftc.teamcode.Intake.Servos.ServoSubsystem;
-//import org.firstinspires.ftc.teamcode.Intake.Servos.ServosCommand;
 
 @TeleOp
 public class MainController extends CommandOpMode {
@@ -28,6 +26,7 @@ public class MainController extends CommandOpMode {
     IntakeSubsystem intakeSubsystem;
     ShooterSubsystem shooterSubsystem;
     ServoSubsystem servoSubsystem;
+
     @Override
     public void initialize() {
 
